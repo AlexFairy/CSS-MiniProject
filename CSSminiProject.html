@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Resume</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <style>
+    nav {
+      background-color: rgb(88, 191, 232);
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0,0 ,0 0.1);
+}
+    li {
+      list-style: square;
+    }
+
+    #margin {
+      margin: 0;
+      margin-top: 314px;
+    }
+
+  </style>
+  <body>
+    <header>
+      <h1>A Web Resume Project</h1>
+      <p style="font-weight: bold;">By: Meilan, Alex</p>
+    </header>
+
+    <div class="container">
+      <nav>
+        <h2 style="text-decoration: underline;">About Me</h2>
+        <p>I am originally from South Florida, but I have had the privilege to live in several such as California, Nevada. I currently reside in Albuquerque, New Mexico. I am Spanish-Cuban. I have always been interested in pursuing a career in the field of technology, so I have been working towards that goal by registering for classes and certification programs (A+, Network+, +Security+).</p>
+        <h2 style="text-decoration: underline;">Personal Interests</h2>
+        <p>One of my favorite hobbies other than gaming online is learning various languages. I am currently learning Italian (Intermidate) and Dutch (Intermidate). One major interest is getting invovled in the environmental and LGBTQ causes, especially protecting transgender individuals.<br style="line-height: 2"> Lastly, another hobby of mine is practicing C# & unity.</p>
+        <h2 style="text-decoration: underline;">Goals</h2>
+        <p>Essentially speaking, my long-term goal is to become a backend software engineer while also pursing an IT career as well. I am currently doing my certications in CompTia. <br style="line-height: 2;">A second goal of mine is to make my own video game and publish it on Steam client; the title is "Wyoming Tales". It is "Dead by Daylight" meets "Resident Evil". The genre is horror-mystery. The video game script is already written.</p>
+      </nav>
+
+      <div class="main-content">
+
+        <article>
+          <h2 style="text-decoration: underline;">Education</h2>
+          <ul>
+            <li><strong>Miami-Dade College</strong>, Associate of Science in Music Business, 2009</li>
+            <li><strong>Miami-Dade College</strong>, Associate of Arts in Music Education, 2009</li>
+            <li><strong>Florida International University</strong>, Bachelor of Arts in East Asian Studies /w Economics Tracks, 2014</li>
+            <li><strong>Southern New Hampshire University</strong>, Master of Science in Applied Economics, 2017</li>
+          </ul>
+          <h2 style="text-decoration: underline;">Certifications</h2>
+          <ul>
+            <li><strong>Florida International University</strong>, Japanese Language Certificate, 2014</li>
+            <li><strong>Coursera</strong>, Google Certificate in Cybersecurity, 2024</li>
+            <li><strong>The CE Shop</strong>, (I) Real Estate Certication in Real Estate Law, (II) Real Estate Principals, (III) Real Estate Practice, 2014</li>
+          </ul>
+        </article>
+        <section>
+          <h2 style="text-decoration: underline">Skills</h2>
+          <ul>
+            <li>English, Spanish, Japanese</li>
+            <li>Microsoft Proficiency</li>
+            <li>Visual Studio Code</li>
+            <li>PyCharm</li>
+            <li>Programming Languages: Python, HTML/CSS/JavaScript/C#</li>
+            <li>Unity</li>
+            <li>Linux</li>
+          </ul>
+        </section>
+       
+        <article>
+          <h2>Work Experience</h2>
+          <p><strong>Plumber's Parts Inc</strong>, Family owned business, Associate Manager <em>(2005-2013)</em></p>
+          <p><strong>Mathematics Tutor</strong>, FIU/MDC, Associate Manager <em>(20010-2016)</em></p>
+        </article>
+
+      </div>
+
+      <aside>
+        <h2>Want to hire me?</h2>
+        <p>Contact Form:</p>
+        <form>
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your full name" required> 
+          
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+          <label for="comments">Type your message:</label>
+          <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+          
+        </form>
+        <button class="button" type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <input type="checkbox" id="agree-terms" name="agree-terms" required>
+        <label for="agree-terms">I agree to the <a href="/terms" target="_blank">Terms and Conditions</a></label>
+
+        <section id="margin">
+          <p>Want to send me a message by email?</p>
+          <a href="mailto: ameil001@fiu.edu">ameil001@fiu.edu</a>
+          <address style="margin-top: 10px">
+            Follow me on <a id="for-link" href="#">BSKY!</a>
+          </address>
+        </section>
+      </aside>
+
+    </div>
+    <footer>
+      <p>&copy; 2025 Meilan, Alex</p>
+      <p>Albuquerque, New Mexico</p>
+      <p>P.O Box 11111,
+        87102
+      </p>
+    </footer>
+  </body>
+</html>
